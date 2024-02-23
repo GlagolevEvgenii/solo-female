@@ -1,0 +1,249 @@
+.main-section {
+    overflow: hidden;
+    position: relative;
+    height: 518px;
+    background-color: #ece78b;
+    background-image: url(../images/header-wide.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 100%;
+}
+
+.advice-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    padding: 0 8px;
+}
+
+.advice-item {
+    text-align: center;
+}
+
+.advice-item-image {
+    margin-bottom: 17px;
+}
+
+.advice-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.swiper {
+    width: 100%;
+    height: 925px;
+    padding-bottom: 36px !important;
+}
+
+.slider-wrapper {
+    padding: 0 25px;
+}
+
+.item-slider {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.item-slider img, .item-slider picture {
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.item-slider-img {
+    height: 320px;
+}
+
+.item-slider-content {
+    padding: 20px 30px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.content-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.content-text {
+    margin-bottom: 0;
+    letter-spacing: 0;
+    line-height: 1.33;
+}
+
+
+.main-section .container {
+    height: 100%
+}
+
+.main-section-title {
+    letter-spacing: 1px;
+    position: absolute;
+    left: 16px;
+    bottom: 96px;
+    font-size: 33px;
+    line-height: 1.14;
+    color: #fff
+}
+
+.main-section-title span {
+    letter-spacing: 0;
+    display: block;
+    padding-top: 8px;
+    font-size: 24px
+}
+
+.section-figure {
+    margin: 40px 0;
+}
+
+.section-figure img, .section-figure picture {
+    width: 100%;
+}
+
+
+.section-figure__caption {
+    padding: 32px;
+    background: #fff;
+    margin-top: 40px
+}
+
+.rounded {
+    border-radius: 10px
+}
+
+.section-tip {
+    background: #E2F3FE;
+    padding: 40px 27px;
+    letter-spacing: -.18px;
+    margin-bottom: 30px;
+    line-height: 1.33
+}
+
+.section-tip_info {
+    letter-spacing: 0
+}
+
+.section-tip__icon {
+    margin-bottom: 21px
+}
+
+.detox-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.detox-item__img {
+    margin-bottom: 19px;
+}
+
+.detox-item {
+    background-color: #092A5E;
+    padding: 34px 16px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.detox-list {
+    text-align: left;
+    list-style-type: disc;
+}
+
+.detox-item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 47px;
+
+    &.margin-mode {
+        margin-bottom: 24px;
+    }
+}
+
+
+.detox-list-item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.section-background {
+    padding-bottom: 300px;
+    position: relative;
+}
+
+.section-background:before {
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 369px;
+    background-image: url(../images/wellen.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.image-sea-wrapper {
+    margin: 0 0 40px -28px;
+}
+
+.place-block {
+    display: flex;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.place-block-info {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px 6px 0 0;
+}
+
+.place-block-image picture, .place-block-image img {
+    border-radius: 0 0 6px 6px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #092A5E;
+    margin-bottom: 16px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.info-item span {
+    margin-left: 19px;
+    font-weight: 400;
+}
+
+.static-image-wrap {
+    margin: 0 -60px 40px;
+}
+
+
