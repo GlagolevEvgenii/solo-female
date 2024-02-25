@@ -43,9 +43,5 @@ const embedEngine = {
             }
         }
     },
-
-    embedBox() {
-        this.parentNode.querySelector(".embed-content").classList.toggle("hidden");
-    },
 };
 document.addEventListener("DOMContentLoaded", embedEngine.init);
