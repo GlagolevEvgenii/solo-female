@@ -18,7 +18,6 @@
         margin-bottom: 48px;
     }
     .hero {
-        background-position:right;
         background-image: url("../img/tui-solo-female-travel-teaser.avif")
     }
     .hero-title {
@@ -39,6 +38,13 @@
 @media(min-width: 767px) {
     .section--padding-top {
         padding-top:60px;
+    }
+
+    .tips-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .tip-item--text{
+        max-width: 301px;
     }
 }
 
@@ -103,6 +109,6 @@
 
 @media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/header_wide@x2.webp")
+        background-image:url("../img/tui-solo-female-travel-teaser.avif")
     }
 }
