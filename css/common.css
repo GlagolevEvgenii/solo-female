@@ -45,7 +45,7 @@ body {
     letter-spacing: 0px;
     font-size: 18px;
     line-height: 1.55;
-    color: #092a5e;
+    color: #1B115C;
     font-weight: 400;
     min-width: 320px;
     margin: 0;
@@ -125,9 +125,6 @@ img {
     padding-bottom: 15px
 }
 
-.section--padding-top {
-    padding-top: 30px
-}
 .hidden {
     display: none
 }
@@ -135,7 +132,7 @@ img {
     display: inline-block;
     font-weight: 400;
     text-decoration: underline;
-    color: #70cbf4;
+    color: #0B49F4;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out
 }
@@ -144,7 +141,4 @@ img {
     color: #061e46;
     -webkit-transform: scale(1.01);
     transform: scale(1.01)
-}
-.image--padding-top {
-    padding-top: 30px
 }

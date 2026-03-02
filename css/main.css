@@ -225,17 +225,12 @@
     color: #092a5e;
     font-weight: 700;
     line-height: 1.1;
-    text-align: center;
     margin-bottom: 33px;
     padding-top: 45px;
     scroll-margin-top: 40px;
 }
-
-.section-subtitle {
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 32px;
-    scroll-margin-top: 80px;
+.section-title.center-mode {
+   text-align: center;
 }
 
 strong {
@@ -250,13 +245,7 @@ strong {
     margin-bottom: 55px
 }
 
-.section-content-image--no-margin {
-    margin-bottom: 0
-}
 
-.section-text:not(:last-child) {
-    margin-bottom: 30px
-}
 .section-text {
     scroll-margin-top: 80px;
 }
@@ -265,9 +254,6 @@ strong {
     font-weight: 700
 }
 
-.section-text--marginb {
-    margin-bottom: 31px
-}
 
 .text--underline {
     display: inline-block;
@@ -285,8 +271,9 @@ strong {
 }
 
 .section-blue {
-    background-color: #e2f3fe;
-    padding: 30px 0;
+    background-color: #70CBF4;
+    padding: 23px 0;
+    border-radius: 25px;
 }
 
 .section-blue-content {
@@ -302,8 +289,8 @@ strong {
 }
 
 .section-blue-content--inner {
-    padding-left: 64px;
-    max-width: 965px;
+    padding-left: 84px;
+    max-width: 985px;
     margin: 0 auto;
     position: relative
 }
@@ -327,7 +314,7 @@ strong {
 .hero {
     height: 310px;
     background-color: #e2f3fe;
-    background-image: url("../img/in-deinem-tempo-um-die-welt-reisen.avif");
+    background-image: url("../img/header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top,right
@@ -360,6 +347,12 @@ strong {
     line-height: 1.1;
     color: #fff;
 }
+.hero-title span {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .nav {
     display: none;
@@ -367,7 +360,7 @@ strong {
     position: sticky;
     top: -1px;
     height: 64px;
-    background-color: #092a5e;
+    background-color: #1B115C;
     color: #fff;
     -webkit-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out
@@ -393,7 +386,7 @@ strong {
 .nav-list--item {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    margin-right: 36px;
+    margin-right: 26px;
     display: inline-block;
 }
 .nav-list--item:last-of-type {
@@ -407,7 +400,7 @@ strong {
 .nav-list--link {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 17px;
     padding: 13px 0;
     letter-spacing: normal;
     font-weight: 700;
@@ -420,7 +413,7 @@ strong {
 }
 
 .embed-button {
-    background-color: #d40e14;
+    background-color: #0B49F4;
     color: #fff;
     font-weight: 700;
     border: 0;
@@ -434,11 +427,11 @@ strong {
 }
 
 .embed-button:hover,.embed-button:hover:active {
-    background-color: #8c0004
+    background-color: #3567F6;
 }
 
 .embed-button:active {
-    background-color: #d40e14;
+    background-color: #0B49F4;
     -webkit-transform: translateY(2px);
     transform: translateY(2px)
 }
@@ -499,8 +492,19 @@ strong {
     color: #70cbf4
 }
 
+.mb-40 {
+    margin-bottom: 40px!important;
+}
 .mb-45 {
-    margin-bottom: 45px
+    margin-bottom: 45px!important;
+}
+
+.mb-60 {
+    margin-bottom: 60px!important;
+}
+
+.mb-0 {
+    margin-bottom: 0!important;
 }
 
 .prg-button {
@@ -513,10 +517,10 @@ strong {
 }
 .tips-wrapper{
     padding: 30px 0 85px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 68px;
-    grid-row-gap: 60px;
+    display: flex;
+    gap:60px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .tip-item{
     display: flex;
@@ -543,6 +547,9 @@ strong {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+.section-1{
+    padding: 60px 0;
 }
 
 

@@ -1,12 +1,12 @@
-@media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
+@media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-solo-female-travel-teaser@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
 
-@media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
+@media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-solo-female-travel-teaser@2x.avif")
+        background-image:url("../img/header@2x.webp")
     }
 }
 @media screen and (max-width: 767px) {
@@ -18,7 +18,7 @@
         margin-bottom: 48px;
     }
     .hero {
-        background-image: url("../img/tui-solo-female-travel-teaser.avif")
+        background-image: url("../img/header.webp")
     }
     .hero-title {
         text-shadow:2px 2px 2px rgba(0,0,0,.27)
@@ -36,9 +36,6 @@
 }
 
 @media(min-width: 767px) {
-    .section--padding-top {
-        padding-top:60px;
-    }
 
     .tips-wrapper{
         grid-template-columns: repeat(3, 1fr);
@@ -66,7 +63,7 @@
         width: 100%;
     }
     .hero {
-        background-image:url("../img/tui-solo-female-travel-teaser.avif");
+        background-image:url("../img/header.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -76,9 +73,14 @@
         display:block;
     }
     .hero-title {
-        max-width:836px;
         font-size: 50px;
         line-height: 57px;
+    }
+    .hero-title span {
+        color: #FFF;
+        font-size: 43.017px;
+        font-weight: 700;
+        line-height: normal;
     }
     .nav {
         display:-webkit-box;
@@ -96,19 +98,22 @@
     .container {
         max-width:1116px;
     }
-    .hero {
-        background-image:url("../img/tui-solo-female-travel-teaser.avif");
+    .container_small {
+        max-width: 900px;
     }
-    .hero-title {
-        max-width:1100px;
+    .hero {
+        background-image:url("../img/header.webp");
     }
     .nav-list--link {
         line-height: 19px;
     }
+    .section-1{
+        padding: 104px 0 125px;
+    }
 }
 
-@media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
+@media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dppx) {
     .hero {
-        background-image:url("../img/tui-solo-female-travel-teaser.avif")
+        background-image:url("../img/header.webp")
     }
 }
