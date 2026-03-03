@@ -31,6 +31,21 @@ const embedEngine = {
         window.onscroll = function () {
             scrollFunction();
         };
+        const buttons = document.querySelectorAll('.btn'); // Находим все кнопки
+
+        buttons.forEach(function(btn) {
+            const hiddenContent = btn.closest('.container').querySelector('.block-content--hidden');
+
+            btn.addEventListener('click', function() {
+                if (hiddenContent.style.maxHeight) {
+                    hiddenContent.style.maxHeight = null;
+                    btn.classList.remove('active');
+                } else {
+                    hiddenContent.style.maxHeight = hiddenContent.scrollHeight + 'px';
+                    btn.classList.add('active');
+                }
+            });
+        });
 
         function scrollFunction() {
             if (
